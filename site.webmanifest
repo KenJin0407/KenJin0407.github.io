@@ -1,0 +1,10 @@
+{
+  "name": "Prince Angel Batiancila Regis | Portfolio",
+  "short_name": "Prince Regis",
+  "description": "Software engineering and embedded systems portfolio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#327569",
+  "icons": [{ "src": "/assets/profile-monogram.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
