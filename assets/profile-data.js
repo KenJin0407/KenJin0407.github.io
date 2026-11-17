@@ -129,6 +129,26 @@ export const resumePages = ['/assets/images/resume/page-1.png', '/assets/images/
 
 export const projects = [
   {
+    id: 'floodguard',
+    name: 'FloodGuard',
+    category: 'IoT & Disaster Risk Management · Web Application',
+    role: 'Backend Developer',
+    period: 'Oct 2026',
+    description:
+      'Backend development for a flood monitoring and early warning web application, handling real-time water level data, alerts, and system integration.',
+    details: [
+      'Architected and implemented server-side endpoints and data handling for FloodGuard.',
+      'Managed real-time telemetry and threshold alerting for flood risk levels.',
+      'Collaborated on web platform integration, API responses, and database structure.',
+      'Conducted debugging, API testing, and maintained backend technical documentation.',
+    ],
+    url: null,
+    image: '/assets/images/projects/floodguard.png',
+    imageAlt: 'FloodGuard flood monitoring application logo and interface preview',
+    previewType: 'photo',
+    tools: ['Backend Developer', 'Python', 'Technical Documentation'],
+  },
+  {
     id: 'icctalk',
     name: 'ICCTalk',
     category: 'OOP project · Web application',

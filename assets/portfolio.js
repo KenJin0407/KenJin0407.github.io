@@ -244,7 +244,7 @@ function renderPage({ partial = false } = {}) {
   const pages = {
     '/': homePage,
     '/projects': () =>
-      `<div class="page-intro"><span class="eyebrow">From ideas to working systems</span><h1>Projects</h1><p>Two academic projects in web development and embedded systems.</p></div>${projectList(true)}${contactSection()}`,
+      `<div class="page-intro"><span class="eyebrow">From ideas to working systems</span><h1>Projects</h1><p>Academic and practical engineering projects in web systems, disaster mitigation, and embedded devices.</p></div>${projectList(true)}${contactSection()}`,
     '/highlights': () =>
       `<div class="page-intro"><span class="eyebrow">Milestones along the way</span><h1>Highlights</h1><p>Academic recognition and hands-on project work.</p></div>${awardSection()}<section>${sectionHeader('02', 'Selected project')}${projectCard(projects[0])}</section>${contactSection()}`,
     '/certifications': () => `${awardSection()}${contactSection()}`,
